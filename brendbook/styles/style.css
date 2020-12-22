@@ -116,6 +116,40 @@
 .container .container__logo p{
   align-self: center;
 }
+
+.download{
+  margin: 0 0 0 40px;
+  position: absolute;
+  bottom: 4%;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.download .text{
+  font-size: 25px;
+  color: #d1c3a1;
+  margin: 0 0 15px 0;
+}
+
+.download p{
+  max-width: none;
+}
+
+.download_button{
+  width:280px;
+  height: 40px;
+  border: 3px solid #384ab0;
+  background-color: transparent;
+  color:#e1e1e3;
+  font-size: 20px;
+  font-family: 'Roboto Slab',serif;
+  font-style: italic;
+  outline: none;
+}
+
+.download_button:hover{
+  background: linear-gradient(90deg,rgb(73,109,211), rgb(39,56,153));
+}
 .corp__logo, 
 .corp__colors,
 .corp__fonts,
