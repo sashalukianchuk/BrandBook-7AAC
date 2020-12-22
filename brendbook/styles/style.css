@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+
+  .warning{
+    display:none;
+  }
+
+
+.sec__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://7aac.gov.ua/wp-content/themes/7aac/img/header_savoy.png"), linear-gradient(90deg,rgb(39,56,153),rgb(73,109,211));
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  }
+  
+.sec__container .img__logo{
+  max-width: 650px;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec__container .img__logo h1{
+  font-family: 'Roboto Slab',serif;
+  font-size: 48px;
+  line-height: 55px;
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sec__container .img__logo img{
+  margin-bottom: 70px;
+  width: fit-content;
+  height: fit-conten;
+}
+
+/* _______________________________________________________________ */
+
+.contents, .contents a{
+  margin:40px;
+  font-family: 'Roboto Slab',serif;
+  font-size: 48px;
+  line-height: 55px;
+  color: rgb(73,109,211);
+  text-transform: uppercase;
+}
+
+.contents .line{
+  border: 1px solid rgb(39,56,153);
+  width: 100%;
+  height: 1px;
+  background-color: rgb(39,56,153);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.contents ul{
+  list-style: none;
+} 
+
+.contents a{
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* ____________________________________________________________________ */
+
+.style{
+  width: 450px;
+  height: 100vh;
+  background-image: url("https://7aac.gov.ua/wp-content/themes/7aac/img/header_savoy.png"), linear-gradient(90deg,rgb(39,56,153),rgb(73,109,211));
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.style h3{
+  margin:20px;
+  font-family: 'Roboto Slab',serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-self: center;
+  text-align: end;
+}
+
+.container{
+  width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.container .container__logo{
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container .container__logo p{
+  align-self: center;
+}
+.corp__logo, 
+.corp__colors,
+.corp__fonts,
+.corp__docs{
+  display: flex;
+  flex-direction: row;
+}
+
+.container .img__logo{
+  height: 350px;
+  width: 350px;
+  margin: 50px;
+}
+
+p{
+  max-width: 350px;
+  font-family: 'Roboto Slab',serif;
+  font-size: 30px;
+  color: rgb(73,109,211);
+}
+
+.text__logo{
+  font-size: 40px;
+}
+/* ______________________________________________ */
+
+.img_container{
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.vertical_img1{
+  height: 130px;
+  width: 120px;
+}
+
+.vertical_img2{
+  height: 160px;
+  width:120px;
+}
+
+
+.hor_img1, .hor_img2{
+  height: 120px;
+  width: 320px;
+}
+
+.hor_img1{
+  margin-bottom: 11px;
+}
+
+.hor_img2{
+  margin-bottom: 41px;
+}
+
+.img_container__first,
+.img_container__second,
+.img_container__third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  max-width: -webkit-fill-available;
+  margin-right: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-self: start;
+}
+
+/* _________________________________________________________ */
+
+.tick, .cross{
+  width:70px;
+  height: 70px;
+  display: flex;
+  justify-self: start;
+  margin: 20px;
+}
+
+.img_container1{
+  width: -webkit-fill-available;
+}
+
+.img_container1__1{
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.img_container1__1 img{
+  width: 120px;
+  height: 130px;
+}
+
+#svg4{
+  width: 170px;
+  height: 170px;
+}
+
+#bad_2{
+  width: 90px;
+}
+
+#bad_3{
+  width: 145px;
+}
+
+/* ____________________________________________________________ */
+
+.img_container2__1, .img_container2__2, .img_container2__3{
+  width: 250px;
+}
+
+.img_container2{
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.img_container2__3{
+  width: 400px;
+}
+
+/* _____________________________________________________________ */
+
+.сolors{
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color{
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5{
+  width:130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.color1{
+  background-color: #1a1958;
+}
+
+.color2{
+  background-color: #010c4c;
+}
+
+.color3{
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+
+
+.color4{
+  background-color: #d1c3a1;
+}
+
+.color5{
+  background: linear-gradient(90deg,rgb(39,56,153),rgb(73,109,211));
+}
+
+.color p{
+  max-width: 600px;
+  display: flex;
+  align-self: center;
+}
+/* ___________________________________________________ */
+
+.text1{
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  align-self: self-start;
+  margin-left: 40px;
+  max-width: -webkit-fill-available;
+}
+
+.text2{
+  font-size: 35px;
+  max-width: -webkit-fill-available;
+  margin: 35px;
+  /* text-align: justify; */
+}
+
+/* _________________________________________________________ */
+.doc{
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  justify-content: space-around;
+}
+
+.document{
+  margin-left: 30px;
+}
+
+.doc .text{
+  display: flex;
+  align-self: center;
+}
+
+/* _____________________________________________________ */
+.card img{
+  width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.last_slide{
+  justify-content: right;
+}
+.last{
+  margin-bottom: 40vh;
+  margin-top: 20px;
+}
+
+@media(max-width: 1439px){
+  .warning{
+    display:block;
+  }
+  .wrap{
+    display: none
+  }
+}
+
