@@ -183,7 +183,7 @@ p{
 
 .text{
   max-width: -webkit-fill-available;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-left: 40px;
   display: flex;
   align-self: start;
@@ -347,8 +347,8 @@ p{
   justify-content: right;
 }
 .last{
-  margin-bottom: 40vh;
-  margin-top: 20px;
+  margin-bottom: 35vh;
+  margin-top: 7vh;
 }
 
 @media(max-width: 1439px){
